@@ -1,0 +1,100 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: #e8eaff;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.container {
+    width: 360px;
+}
+
+.header {
+    background: #b585ff;
+    color: #fff;
+    padding: 14px 20px;
+    border-radius: 6px 6px 0 0;
+    display: flex;
+    align-items: center;
+}
+
+.menu-icon {
+    font-size: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 0 0 12px 12px;
+    box-shadow: 0 0 20px rgba(150, 150, 200, 0.2);
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.task-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: #5b5c72;
+    position: relative;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    border: 2px solid #9a9bb2;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.filled {
+    background: #b585ff;
+    border-color: #b585ff;
+}
+
+.completed .strike {
+    text-decoration: line-through;
+    color: #b0b0c2;
+}
+
+.delete {
+    margin-left: auto;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.new-task {
+    width: 100%;
+    padding: 12px 0;
+    background: #b585ff;
+    border: none;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.new-task:hover {
+    opacity: 0.9;
+}
+.input-box {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #c9c9d6;
+  margin-bottom: 12px;
+}
