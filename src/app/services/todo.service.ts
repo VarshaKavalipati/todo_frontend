@@ -8,7 +8,8 @@ import { Task } from '../models/task.model';
 })
 export class TodoService {
 
-  private baseUrl = 'http://localhost:8389/api/todo';
+  // private baseUrl = 'http://localhost:8389/api/todo';
+  private baseUrl = 'https://todo-1-q2kf.onrender.com/api/todo';
 
   constructor(private http: HttpClient) {}
 
